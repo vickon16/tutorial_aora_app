@@ -1,4 +1,4 @@
-import { DocumentPickerAsset } from "expo-document-picker";
+import { ImagePickerAsset } from "expo-image-picker";
 import {
   Account,
   Avatars,
@@ -10,7 +10,6 @@ import {
   Storage,
 } from "react-native-appwrite";
 import { TFormVideo, TUserDocument, TVideoDocument } from "./types";
-import { ImagePickerAsset } from "expo-image-picker";
 
 export const config = {
   endpoint: "https://cloud.appwrite.io/v1",
